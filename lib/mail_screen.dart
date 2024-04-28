@@ -75,7 +75,7 @@ class _MailScreenState extends State<MailScreen>
                         color: Color.lerp(
                           Colors.white,
                           const Color(0xffC0C1BD),
-                          ((animation.value * 100) / begin) / 100,
+                          animation.value  / begin ,
                         )!,
                         child: const Text(
                           'Donec interdum ipsum in neque vestibulum, vel gravida magna elementum. Sed eu nisl eu leo cursus mattis id ac leo. Nam maximus tortor in purus eleifend elementum. Suspendisse efficitur',
