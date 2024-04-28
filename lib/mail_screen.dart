@@ -11,7 +11,6 @@ class MailScreen extends StatefulWidget {
 
 class _MailScreenState extends State<MailScreen>
     with SingleTickerProviderStateMixin {
-  double valor = 90;
   double begin = 90;
   double end = 0.0;
   double radius = 10.0;
